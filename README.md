@@ -48,6 +48,7 @@
   * [Minio - Installation](minio/installation.md) 
   * [Minio - User Management](minio/user_management.md)
   * [mmcli - Connect to Sim Card Internet](mmcli.md)
+  * [MariaDB - Master/Slave Replication with mariabackup](mariadb/mariadb-replication-mariabackup.md)
 
 ### O
   * [Opennebula - Create Window Template](opennebula/windowstemplate.md)
