@@ -8,7 +8,7 @@
 apt-get install -y mariadb-server maridb-backup
 ```
 
-### Master
+## Master
 #### Enable binary log 
 Eidt `/etc/mysql/mariadb.conf.d/50-server.conf`  
 
@@ -47,7 +47,7 @@ cat /var/mariadb/backup/xtrabackup_binlog_info
 mysql-bin.000001	358	0-1-4,1-1-3
 ```
 
-### Slave
+## Slave
 #### edit config
 Edit `/etc/mysql/mariadb.conf.d/50-server.conf`  
 ```
@@ -59,11 +59,13 @@ max_binlog_size        = 100M
 
 relay-log              = /var/log/mysql/mysql-relay-bin.log
 read-only              = 1
-```
+```  
 
 #### Stop service and delete datadir
+```
 systemctl stop mariadb
 rm -r /var/lib/mysql/*
+```
 
 #### recover backup and start service
 ```
