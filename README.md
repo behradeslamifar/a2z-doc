@@ -72,3 +72,6 @@
   * [Squid - Example Config 1](squid/anonymouse.md)
   * [Swarm - Cheat sheet](swarm/cheatsheet.md)
   * [Sysctl Config Sample](sysctl/sampleconfig.md)
+
+### V
+  * [Vim - Config](linux/vim-config.md)
