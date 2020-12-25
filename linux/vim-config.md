@@ -50,6 +50,9 @@ let mapleader=","
 " nofoldenable the file will be opened without any folds
 " nosmd (noshowmode) If in Insert, Replace or Visual mode put a message on the last line. Use the 'M' flag in 'highlight'
 "   to set the type of highlighting for this message.
+" set autoindent    - turns it on
+" set smartindent   - does the right thing (mostly) in programs
+" set cindent       - stricter rules for C programs
 " set noswapfile
 
 if has("autocmd")
@@ -58,5 +61,7 @@ if has("autocmd")
 endif
 
 set mouse-=a
+set clipboard=unnamed
+set clipboard=unnamedplus
 syntax on
 ```
