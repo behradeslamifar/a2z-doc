@@ -26,6 +26,7 @@
 
 ### G
   * [Git - Cheat Sheet](git/cheatsheet.md)
+  * [Gitlab](g/gitlab.md)
 
 ### J
   * [jq - Json Parser](jq.md)
@@ -49,6 +50,9 @@
   * [Minio - User Management](minio/user_management.md)
   * [mmcli - Connect to Sim Card Internet](mmcli.md)
   * [MariaDB - Master/Slave Replication with mariabackup](mariadb/mariadb-replication-mariabackup.md)
+
+### N
+  * [Network-Manager](n/network-manager.md)
 
 ### O
   * [Opennebula - Create Window Template](opennebula/windowstemplate.md)
