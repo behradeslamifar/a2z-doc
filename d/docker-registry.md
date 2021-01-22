@@ -1,5 +1,17 @@
 # Docker Registry
 
+## Docker Registry Rate-limit promblem
+1. Define Google registry as a mirror.(problem: not all images exist on this mirror)
+```
+# vi /etc/docker/daemon.json
+{
+  "registry-mirrors": ["https://mirro.gcr.io"]
+}
+```
+
+2. Run Docker Registry as a Cache
+follow [Docker Registry as a Cache](#docker-registry-as-a-cache) instruction.
+
 ## Docker Registry as a Cache
 Required directory
 ```
