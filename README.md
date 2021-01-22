@@ -13,8 +13,9 @@
 ### C
   * [CNCF CKA Curriculum](kubernetes/cka_curriculum.md)
 ### D
-  * [Docker-compose - Commands](docker-compose/commands.md) 
-  * [Docker-compose - Sample Config](docker-compose/sample.md) 
+  * [Docker-compose - Commands](d/commands.md) 
+  * [Docker-compose - Sample Config](d/sample.md) 
+  * [Docker Registry](d/docker-registry.md)
 
 ### E
   * [Elasticsearch API](elasticsearch/api.md)
