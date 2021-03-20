@@ -62,14 +62,22 @@ services:
       - './data:/var/opt/gitlab'
   gitlab-runner:
     image: gitlab/gitlab-runner:alpine-v13.7.0
+    restart: always
     volumes: 
       - "./gitlab-runner-config:/etc/gitlab-runner"
       - "/var/run/docker.sock:/var/run/docker.sock"
 ```
 
-Create selfsigned certificate
+Create CA
 ```
-openssl req -x509 -new -days 365 -nodes -keyout example.com.key -out example.com.cert
+openssl genrsa  -out rootCA.key 4096
+openssl req -x509 -new -nodes -key rootCA.key -sha256 -days 1024 -out rootCA.crt -subj '/CN=CA/'
+
 ```
 
-
+Create Certificate
+```
+openssl genrsa -out example.com.key 2048
+openssl req -new -sha256 -key server-key.pem -subj '/CN=gl.linuxmotto.ir' -out server.csr
+openssl x509 -req -in server.csr -CA rootCA.crt -CAkey rootCA.key -CAcreateserial -out server-cert.pem -days 500 -sha256
+```

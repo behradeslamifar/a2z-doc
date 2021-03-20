@@ -8,7 +8,7 @@
   * [Ansible - Use ansible and ansible-playbook](ansible/command.md)
 
 ### B
-  * [Bash Scripting](bash/bashscripting.md)
+  * [Brew - Package Manager](b/brew.md)
 
 ### C
   * [CNCF CKA Curriculum](kubernetes/cka_curriculum.md)
