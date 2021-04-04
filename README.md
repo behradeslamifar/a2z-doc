@@ -56,6 +56,7 @@
   * [Network-Manager](n/network-manager.md)
 
 ### O
+  * [Openconnect Client](o/openconnect-client.md)
   * [Opennebula - Create Window Template](opennebula/windowstemplate.md)
 
 ### P
