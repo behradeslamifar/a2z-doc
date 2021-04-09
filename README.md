@@ -11,7 +11,6 @@
   * [Brew - Package Manager](b/brew.md)
 
 ### C
-  * [CNCF CKA Curriculum](kubernetes/cka_curriculum.md)
 ### D
   * [Docker-compose - Commands](d/commands.md) 
   * [Docker-compose - Sample Config](d/sample.md) 
@@ -33,14 +32,16 @@
   * [jq - Json Parser](jq.md)
 
 ### K
-  * [Keepalived - HAProxy HA](keepalived/haproxy.md)
+  * [Keepalived - HAProxy HA](k/haproxy.md)
   * [kubectl - Cheat Sheet](kubectl/cheatsheet.md)
-  * [Kubernetes - API Security](kubernetes/apisecurity.md)
-  * [Kubernetes - Configmaps and Secrets](kubernetes/configmaps.md)
-  * [Kubernetes - Expose Pod Access](kubernetes/exposepod.md)
-  * [Kubernetes - Ingress](kubernetes/ingress.md)
-  * [Kubernetes - Kubeconfig](kubernetes/kubeconfig.md)
-  * [Kubernetes - Pod Controller](kubernetes/podcontroller.md)
+  * [Kubernetes - API Security](k/apisecurity.md)
+  * [Kubernetes - CNCF CKA Curriculum](k/cka_curriculum.md)
+  * [Kubernetes - Configmaps and Secrets](k/configmaps.md)
+  * [Kubernetes - Expose Pod Access](k/exposepod.md)
+  * [Kubernetes - Ingress](k/ingress.md)
+  * [Kubernetes - Kubeconfig](k/kubeconfig.md)
+  * [Kubernetes - Migrate from rbd-provisoner to ceph-csi](k/kubernetes-migrate-rbdprovisioner-to-ceph-csi.md)
+  * [Kubernetes - Pod Controller](k/podcontroller.md)
 
 ### L
   * [Letsencrypt - Certbot](letsencrypt/certbot.md)
