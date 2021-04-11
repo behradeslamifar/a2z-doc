@@ -40,6 +40,7 @@
   * [Kubernetes - Expose Pod Access](k/exposepod.md)
   * [Kubernetes - Ingress](k/ingress.md)
   * [Kubernetes - Kubeconfig](k/kubeconfig.md)
+  * [Kubernetes - Learning Environment](k/kubernetes-learining-environemnt.md)
   * [Kubernetes - Migrate from rbd-provisoner to ceph-csi](k/kubernetes-migrate-rbdprovisioner-to-ceph-csi.md)
   * [Kubernetes - Pod Controller](k/podcontroller.md)
 
