@@ -18,7 +18,7 @@ iface eth0 inet static
 
 auto tunnel
 iface tunnel inet ppp
-	provider tce
+	provider myprovider
 	post-up route add -net 172.16.10.0/24 dev ppp0
 	post-up route add -host 172.16.11.32 dev ppp0
 	post-up route add -net 10.0.0.0/8 dev ppp0
@@ -26,7 +26,7 @@ iface tunnel inet ppp
 
 auto wimax
 iface wimax inet dhcp
-	wpa-ssid Cvak2
+	wpa-ssid Myssid
 	wpa-psk 7b5f159e6634633d328edce16fc6110284712d8097b
 
 auto mobile
