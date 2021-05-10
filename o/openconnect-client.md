@@ -13,6 +13,9 @@ Create service unit file
 Description=OpenConnect client to Cisco AnyConnect VPN
 Documentation=man:openconnect(8)
 After=network.target
+Wants=network-online.target NetworkManager-wait-online.service
+StartLimitInterval=300
+StartLimitBurst=5
 
 [Service]
 EnvironmentFile=-/etc/openconnect/%i.conf
@@ -20,6 +23,7 @@ Type=forking
 PIDFile=/run/openconnect/%i.pid
 ExecStartPre=/bin/sh -c 'test -d /run/openconnect/ || mkdir /run/openconnect; touch /run/openconnect/%i.pid'
 ExecStart=/bin/sh -c 'echo $PASSWORD | /usr/sbin/openconnect $SERVER --pid-file /run/openconnect/%i.pid --user $USERNAME $OPTIONS'
+ExecStartPost=/usr/bin/sleep 5
 ExecReload=/bin/kill -USR2 $MAINPID
 Restart=on-failure
 
