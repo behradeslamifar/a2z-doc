@@ -81,5 +81,9 @@
   * [Swarm - Cheat sheet](swarm/cheatsheet.md)
   * [Sysctl Config Sample](sysctl/sampleconfig.md)
 
+### T
+  * [tmux - Shortcuts](t/tmux-shortcuts.md)
+  * [tmux - Config](t/tmux-config.md)
+
 ### V
   * [Vim - Config](linux/vim-config.md)

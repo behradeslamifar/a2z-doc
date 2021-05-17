@@ -1,4 +1,10 @@
 # tmux shortcuts
+tmux manual and document expression
+| keyword | Description |
+| --- | --- |
+| `C` | Ctrl  |
+| `M` | Alt   |
+| `prefix` | `ctrl`+`b` |
 
 ## Work with pane
 
@@ -11,5 +17,5 @@ Copy text between panes.
 | --- | --- |
 | `Ctrl`+`b`,`[` | Enter copy-mode   |
 | `Ctrl`+`space` | Start selecting   |
-| `Alt`+`w`      | Copy to clipboard | 
+| `Alt`+`w` or `Ctrl`+`w`  | Copy to clipboard | 
 | `Ctrl`+`b`,`]` | Paste copied text from tmux clipboard. |
