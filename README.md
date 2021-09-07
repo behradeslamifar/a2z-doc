@@ -60,6 +60,7 @@
 ### O
   * [Openconnect Client](o/openconnect-client.md)
   * [Opennebula - Create Window Template](opennebula/windowstemplate.md)
+  * [OpenVPN with Certificate Authority and Certificate Authentication](o/openvpn-with-ca.md)
 
 ### P
   * [Pacemaker - Config Examples](pacemaker/configsample.md)
