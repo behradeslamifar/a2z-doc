@@ -45,7 +45,7 @@ Create key and certificate
 ```
 openssl genrsa -out server.key 2048
 openssl req -new -key server.key -out server.csr -config server.conf
-openssl x509 -req -in server.csr -CA rootCACert.pem -CAkey rootCAKey.pem -CAcreateserial -out server.crt -days 365
+openssl x509 -req -in server.csr -CA rootCACert.pem -CAkey rootCAKey.pem -CAcreateserial -out server.crt -days 365 -extensions v3_ext -extfile server.conf
 ```
 
 ## Create Client Certificate 
@@ -68,8 +68,8 @@ extendedKeyUsage=clientAuth
 
 Create key and certificate
 ```
-openssl req -nodes -new -keyout behrad.key -out behrad.csr -config user-openssl.conf
-openssl x509 -req -in behrad.csr -CA rootCACert.pem -CAkey rootCAKey.pem -CAcreateserial -out behrad.crt -days 365 -extensions v3_ext -extfile server.conf
+openssl req -nodes -new -keyout behrad.key -out behrad.csr -config .conf
+openssl x509 -req -in behrad.csr -CA rootCACert.pem -CAkey rootCAKey.pem -CAcreateserial -out behrad.crt -days 365 -extensions v3_ext -extfile user.conf
 ```
 
 ## Verify Certificate

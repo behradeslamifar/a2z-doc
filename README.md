@@ -60,6 +60,7 @@
 ### O
   * [Openconnect Client](o/openconnect-client.md)
   * [Opennebula - Create Window Template](opennebula/windowstemplate.md)
+  * [OpenSSL - Create Certificate with OpenSSL](o/certificate-with-openssl.md)
   * [OpenVPN with Certificate Authority and Certificate Authentication](o/openvpn-with-ca.md)
 
 ### P
@@ -77,10 +78,10 @@
   * [Redis - Config Notes](redis/note.md)
 
 ### S
-  * [Sed - Tutorial](sed/tutorial.md) 
-  * [Squid - Example Config 1](squid/anonymouse.md)
-  * [Swarm - Cheat sheet](swarm/cheatsheet.md)
-  * [Sysctl Config Sample](sysctl/sampleconfig.md)
+  * [Sed - Tutorial](s/sed-tutorial.md) 
+  * [Squid - Example Config 1](s/squid-anonymouse.md)
+  * [Swarm - Cheat sheet](s/swarm-cheatsheet.md)
+  * [Sysctl Config Sample](s/sysctl-sampleconfig.md)
 
 ### T
   * [tmux - Shortcuts](t/tmux-shortcuts.md)
