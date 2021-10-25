@@ -16,18 +16,22 @@ sed یک ویرایشگر جریان (Stream editor) است. اگر با این 
 ## دستورات اصلی: s برای جاگذاری (substitution)
 
 sed دستورات زیادی دارد ولی اکثرا تنها دستور s را می شناسند و استفاده می کنند. s تمامی بخش هایی که با regex مورد نظر همخوانی دارد را با مقدار جدید جایگزین می کند. در مثا زیر کلمه day در فایل old با کلمه night جایگزین می شود و نتیجه در فایل new ذخیره می شود:
+</div>
 
 ```
 sed s/day/night/ <old >new
 ```
 
+<div dir="rtl">
 یا روش دیگر:
-
+</div>
 
 ```
 sed s/day/night/ old >new
 ```
+<div dir="rtl">
 یامی توانید این روش را امتحان کنید:
+</dev>
 
 ```
 echo day | sed s/day/night
@@ -211,4 +215,4 @@ sed 's/[a-zA-Z]* /DELETED /2g' <old >new
 
 ## منابع
 
-* http://www.grymoire.com/Unix/Sed.html
+* [Sed - An Introduction and Tutorial by Bruce Barnett](http://www.grymoire.com/Unix/Sed.html)
